@@ -1,0 +1,11 @@
+{
+  "name": "simple-personal-app-weather",
+  "version": "1.0.0",
+  "description": "This is a simple personal app weather created with javascript and api rest",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "norma",
+  "license": "MIT"
+}
