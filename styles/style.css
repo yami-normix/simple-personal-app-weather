@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+}
+
+.form-container h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.input, .input-code {
+    margin-bottom: 14px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#button {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 14px;
+    border: 2px solid green;
+    padding-left: 18px;
+    font-weight: bold;
+    padding-top: 3px;
+    
+}
+
+.visualization-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+}
+.border {
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .temperature, .description {
+    font-size: 23px;
+  }
+  .description {
+    margin-top: 4px;
+  }
+
+  .reload-button {
+    background-color: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #1AFF1A;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 60px;
+    height: 30px;
+  }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    background-color: black;
+    
+}
