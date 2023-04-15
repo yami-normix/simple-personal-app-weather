@@ -219,3 +219,4 @@ $RECYCLE.BIN/
 
 # Secrets.js (API_KEY)
 src/secrets.js
+.env
