@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const formContainer = document.querySelector('.form-container')
 const form = document.querySelector('.form')
 input = document.querySelector('.input')
@@ -28,7 +26,7 @@ reloadButton.addEventListener('click', e => {
 
 
 function callApi(){
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue},${inputCodeValue}&appid=${process.env.API_KEY}&units=metric`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue},${inputCodeValue}&appid=${API_KEY}&units=metric`
     fetch(url)
     .then(response => response.json())
     .then(data => {
